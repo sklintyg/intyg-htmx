@@ -1,0 +1,57 @@
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Poppins:wght@600&display=swap";
+@import "https://esm.sh/@inera/ids-design@4.6.3/themes/1177-pro/1177-pro.css";
+@import "https://esm.sh/@inera/ids-design@4.6.3/components/form/checkbox/checkbox.css";
+@import "https://esm.sh/@inera/ids-design@4.6.3/components/form/radio/radio.css";
+@import "https://esm.sh/@inera/ids-design@4.6.3/components/form/input/input.css";
+@import "https://esm.sh/@inera/ids-design@4.6.3/components/button/button.css";
+
+[un-cloak],
+[x-cloak] {
+  display: none !important;
+}
+
+:root {
+  --font-family_1: "Open Sans", Roboto, "Helvetica Neue", "Arial Nova",
+    "Nimbus Sans", Arial, sans-serif;
+  --font-family_2: Poppins, Roboto, "Helvetica Neue", "Arial Nova",
+    "Nimbus Sans", Arial, sans-serif;
+  --IDS_MAX-WIDTH: 1920px;
+}
+
+@page {
+  size: A4 landscape;
+}
+
+@media print {
+  html,
+  body.ids {
+    font-size: 11px;
+  }
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.ids-content ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.ids-content ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.ids-content ul ul,
+.ids-content ol ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-left: 15px;
+}
+.ids-content ol ol,
+.ids-content ul ol {
+  list-style-type: lower-latin;
+  list-style-position: inside;
+  margin-left: 15px;
+}

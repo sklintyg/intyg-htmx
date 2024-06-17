@@ -1,0 +1,15 @@
+{
+  "tasks": {
+    "start": "deno run --allow-read --allow-net src/main.tsx",
+    "dev": "deno run --allow-read --allow-net --watch src/main.tsx"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "preact"
+  },
+  "imports": {
+    "preact": "npm:preact@10.20.2",
+    "preact-render-to-string": "npm:preact-render-to-string@6.4.2",
+    "@inera/ids-core": "npm:@inera/ids-core@4.6.3"
+  }
+}
